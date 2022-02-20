@@ -5,13 +5,18 @@ export default function Results(props) {
     console.log(props.datas);
     console.log(props.datas[0][0].title);
   }
+
   const fullar =
     props.datas.length > 0
       ? props.datas[0].map((data) => (
           <div>
-            <h1>Cim: {data.title}</h1>
-            <p>Link a cikkhez: {data.url}</p>
-            <p>Forras: {data.source}</p>
+            {data.title[0] != "<" && (
+              <div>
+                <h1>Cim: {data.title}</h1>
+                <p>Link a cikkhez: {data.url}</p>
+                <p>Forras: {data.source}</p>
+              </div>
+            )}
           </div>
         ))
       : [];
