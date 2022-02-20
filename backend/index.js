@@ -14,9 +14,14 @@ const corsOptions = {
 app.use(cors(corsOptions)); // Use this after the variable declaration
 const newspapers = [
   {
-    name: "thetimes",
-    address: "https://www.thetimes.co.uk/",
-    base: "https://www.thetimes.co.uk",
+    name: "Index",
+    address: "https://index.hu/",
+    base: "",
+  },
+  {
+    name: "Origo",
+    address: "https://www.origo.hu/index.html",
+    base: "",
   },
 ];
 
