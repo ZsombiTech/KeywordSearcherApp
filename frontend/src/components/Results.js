@@ -3,7 +3,6 @@ import React, { Fragment, useState } from "react";
 export default function Results(props) {
   if (props.datas.length > 0) {
     console.log(props.datas);
-    console.log(props.datas[0][0].title);
   }
 
   const fullar =
