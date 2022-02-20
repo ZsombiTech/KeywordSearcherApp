@@ -18,16 +18,6 @@ const newspapers = [
     address: "https://www.thetimes.co.uk/",
     base: "https://www.thetimes.co.uk",
   },
-  {
-    name: "guardian",
-    address: "https://www.theguardian.com/us/culture",
-    base: "",
-  },
-  {
-    name: "telegraph",
-    address: "https://www.telegraph.co.uk/",
-    base: "https://www.telegraph.co.uk",
-  },
 ];
 
 let articles = [];

@@ -1,0 +1,27 @@
+.textcontainer {
+  font-family: "Lucida Sans", sans-serif;
+  color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.fullresults {
+  margin-top: 50px;
+}
+
+.noresults {
+  text-align: center;
+  font-family: "Lucida Sans", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .textcontainer {
+    margin-left: -40px;
+  }
+}

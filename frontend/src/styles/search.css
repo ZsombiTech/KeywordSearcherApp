@@ -1,5 +1,6 @@
 .fullsbar {
   margin-top: 20px;
+  margin-left: 40vw;
 }
 .search {
   background-color: white;
@@ -9,7 +10,7 @@
   width: 200px;
   height: 20px;
   padding: 5px;
-  margin-left: 20vw;
+  margin-bottom: 20px;
 }
 
 .search::placeholder {
@@ -26,4 +27,10 @@
   border: none;
   width: 80px;
   margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .fullsbar {
+    margin-left: 10vw;
+  }
 }

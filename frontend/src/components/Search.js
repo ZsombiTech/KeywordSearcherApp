@@ -21,12 +21,12 @@ export default function Search(props) {
         <input
           type="text"
           className="search"
-          placeholder="Username"
+          placeholder="Keresoszo"
           onChange={inputhandler}
           value={props.search}
         />
         <button onClick={getDatas} className="getbutton">
-          Search
+          Kereses
         </button>
       </div>
     </Fragment>
